@@ -2,6 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical">
 
     <!--Toolbal-->
@@ -10,6 +11,7 @@
         android:theme="@style/Base.ThemeOverlay.AppCompat.Dark.ActionBar"
         android:background="@color/colorPrimary"
         android:layout_width="match_parent"
+
         android:layout_height="?attr/actionBarSize"/>
 
     <ScrollView
@@ -28,16 +30,18 @@
                 android:layout_height="wrap_content">
 
                 <ImageView
+                    android:layout_width="102dp"
+                    android:layout_height="match_parent"
                     android:layout_gravity="center_horizontal"
-                    android:src="@drawable/logo"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" />
+                    android:src="@drawable/logo" />
                 <!--TextField-->
                 <EditText
                     android:inputType="text"
                     android:hint="Height"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content" />
+
+
             </LinearLayout>
 
         </LinearLayout>
