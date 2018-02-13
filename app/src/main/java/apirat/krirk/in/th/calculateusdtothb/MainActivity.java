@@ -7,7 +7,6 @@ import android.view.View;
 import apirat.krirk.in.th.calculateusdtothb.Fragment.MainFragment;
 
 
-
 public class MainActivity extends AppCompatActivity {
 
     @Override
