@@ -4,6 +4,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
+
     <LinearLayout
 
         android:layout_width="wrap_content"
@@ -14,38 +15,38 @@
         android:padding="@dimen/padding">
 
         <ImageView
-            android:layout_gravity="center_horizontal"
-            android:src="@drawable/logo"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/logo" />
 
-    <TextView
-        android:id="@+id/txtShowName"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:text="Two line item"
-        android:textColor="@color/colorPrimaryDark"
-        android:textSize="@dimen/h1"
-        android:textStyle="bold" />
+        <TextView
+            android:id="@+id/txtShowName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Two line item"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="@dimen/h1"
+            android:textStyle="bold" />
 
-    <TextView
-        android:id="@+id/txtShow"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:text="Secondary text"
+        <TextView
+            android:id="@+id/txtShow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Secondary text"
 
-        android:textSize="@dimen/padding"
-        android:textStyle="bold" />
+            android:textSize="@dimen/padding"
+            android:textStyle="bold" />
 
-    <Button
-        android:id="@+id/btnCalculate"
-        android:layout_gravity="center_horizontal"
-        android:text="Calculate"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        />
-</LinearLayout>
+        <Button
+            android:id="@+id/btncalculate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Calculate"/>
+    </LinearLayout>
+
 </LinearLayout>
 

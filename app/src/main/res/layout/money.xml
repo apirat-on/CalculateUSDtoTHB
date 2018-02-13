@@ -7,16 +7,12 @@
 
     <!--Toolbal-->
     <android.support.v7.widget.Toolbar
-        android:id="@+id/toolberRegisterUser"
+        android:id="@+id/toolberCalculate"
         android:theme="@style/Base.ThemeOverlay.AppCompat.Dark.ActionBar"
         android:background="@color/colorPrimary"
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"/>
-    <TextView
-        android:text="fsdfsdfdsfsdfsdfsdfsdf"
-        android:textSize="20dp"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+
 
     <ScrollView
         android:layout_width="match_parent"
@@ -37,18 +33,13 @@
                     android:layout_width="102dp"
                     android:layout_height="match_parent"
                     android:layout_gravity="center_horizontal"
-                    android:src="@drawable/logo" />
+                    android:src="@mipmap/ic_money" />
                 <!--TextField-->
                 <EditText
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="Height"
                     android:inputType="text" />
-
-                <Button
-
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent" />
 
             </LinearLayout>
 
@@ -58,9 +49,10 @@
     </ScrollView>
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/btncalculate"
         android:layout_width="224dp"
         android:layout_height="wrap_content"
-        android:text="Button" />
+        android:layout_gravity="center_horizontal"
+        android:text="Exchange" />
 
 </LinearLayout>
