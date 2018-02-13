@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <!--Toolbal-->
+    <!--Toolbal-->
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolberRegisterUser"
+        android:theme="@style/Base.ThemeOverlay.AppCompat.Dark.ActionBar"
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+    <LinearLayout
+        android:background="@drawable/logo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/padding"
+        android:orientation="vertical"
+        android:padding="@dimen/padding"></LinearLayout>
+
+
+    <TextView
+        android:id="@+id/txtShowName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Click Show Name"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="@dimen/h1"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Click Show Name"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="@dimen/padding"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/btnGoShowName"
+        android:text="Calculate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    </ScrollView>
+
+</LinearLayout>
