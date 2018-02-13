@@ -5,19 +5,26 @@
     android:orientation="vertical">
 
     <LinearLayout
-        android:background="@drawable/logo"
-        android:layout_width="match_parent"
+
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
         android:layout_margin="@dimen/padding"
         android:orientation="vertical"
-        android:padding="@dimen/padding"></LinearLayout>
+        android:padding="@dimen/padding">
+
+        <ImageView
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
 
     <TextView
         android:id="@+id/txtShowName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:text="Click Show Name"
+        android:text="Two line item"
         android:textColor="@color/colorPrimaryDark"
         android:textSize="@dimen/h1"
         android:textStyle="bold" />
@@ -27,16 +34,18 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:text="Click Show Name"
-        android:textColor="@color/colorPrimaryDark"
+        android:text="Secondary text"
+
         android:textSize="@dimen/padding"
         android:textStyle="bold" />
 
     <Button
         android:id="@+id/btnCalculate"
+        android:layout_gravity="center_horizontal"
         android:text="Calculate"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         />
-
 </LinearLayout>
+</LinearLayout>
+
